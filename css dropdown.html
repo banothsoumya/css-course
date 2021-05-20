@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .dropdown {
+            position:relative;
+            display:inline-block;
+        }
+.dropdown-content {
+    position: absolute;
+    display:none;
+    background-color: darkslategray;
+    max-width: 200px;
+    
+    z-index: 1;
+    padding:5px 8px;
+
+}
+        .dropdown:hover .dropdown-content {
+            display:block;
+        }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <span>your surname?</span>
+            <div class="dropdown-content">
+                <p>banoth</p>
+            </div>
+        </div>
+    
+</body>
+</html>
